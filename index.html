@@ -1,0 +1,1291 @@
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nayera Sakr | Professional Bilingual Voice Over Artist</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+  <style>
+        .animate-in {
+            opacity: 1 !important;
+            transform: translateY(0) !important;
+        }
+    </style>
+  <!-- <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --gold: #c9a84c;
+      --gold-light: #e2c97e;
+      --dark: #0d0d0d;
+      --dark2: #141414;
+      --dark3: #1c1c1c;
+      --dark4: #252525;
+      --text: #e8e8e8;
+      --muted: #888;
+      --border: rgba(201,168,76,0.18);
+      --font-display: 'Playfair Display', serif;
+      --font-body: 'Inter', sans-serif;
+    }
+
+    html { scroll-behavior: smooth; }
+    body { background: var(--dark); color: var(--text); font-family: var(--font-body); line-height: 1.6; }
+
+    /* ─── NAV ─── */
+    nav {
+      position: fixed; top: 0; left: 0; width: 100%; z-index: 100;
+      background: rgba(13,13,13,0.92); backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 6%; height: 68px;
+    }
+    .nav-logo { font-family: var(--font-display); font-size: 1.3rem; color: var(--gold); text-decoration: none; font-weight: 700; }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { color: var(--text); text-decoration: none; font-size: .875rem; letter-spacing: .04em; transition: color .2s; }
+    .nav-links a:hover { color: var(--gold); }
+    .nav-cta {
+      background: var(--gold); color: var(--dark); padding: .45rem 1.2rem;
+      border-radius: 2px; font-size: .875rem; font-weight: 600; text-decoration: none;
+      transition: background .2s;
+    }
+    .nav-cta:hover { background: var(--gold-light); }
+    .lang-switch { display: flex; gap: .6rem; font-size: .8rem; }
+    .lang-switch a { color: var(--muted); text-decoration: none; padding: .2rem .5rem; border: 1px solid var(--border); border-radius: 2px; transition: .2s; }
+    .lang-switch a:hover { color: var(--gold); border-color: var(--gold); }
+
+    /* ─── HERO ─── */
+    #home {
+      min-height: 100vh; display: flex; align-items: center; padding: 0 6%;
+      padding-top: 68px; position: relative; overflow: hidden;
+    }
+    .hero-bg {
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse at 70% 50%, rgba(201,168,76,.07) 0%, transparent 65%),
+                  radial-gradient(ellipse at 20% 80%, rgba(201,168,76,.04) 0%, transparent 50%);
+    }
+    
+    .hero-eyebrow { font-size: .8rem; letter-spacing: .2em; text-transform: uppercase; color: var(--gold); margin-bottom: 1.2rem; }
+    .hero-title { font-family: var(--font-display); font-size: clamp(2.8rem,5vw,4.2rem); line-height: 1.12; font-weight: 700; color: #fff; margin-bottom: 1.4rem; }
+    .hero-title span { color: var(--gold); }
+    .hero-desc { color: var(--muted); font-size: 1.05rem; line-height: 1.75; margin-bottom: 2rem; max-width: 480px; }
+    .btn-row { display: flex; gap: 1rem; flex-wrap: wrap; }
+    .btn-primary {
+      background: var(--gold); color: var(--dark); padding: .75rem 1.8rem;
+      border-radius: 2px; font-weight: 600; text-decoration: none; font-size: .9rem;
+      transition: background .2s;
+    }
+    .btn-primary:hover { background: var(--gold-light); }
+    .btn-outline {
+      border: 1px solid var(--gold); color: var(--gold); padding: .75rem 1.8rem;
+      border-radius: 2px; font-weight: 600; text-decoration: none; font-size: .9rem;
+      transition: .2s;
+    }
+    .btn-outline:hover { background: rgba(201,168,76,.08); }
+    .hero-image {
+      flex: 0 0 420px; z-index: 1; position: relative;
+    }
+    .hero-image img {
+      width: 380px; height: 480px; object-fit: cover; border-radius: 4px;
+      border: 1px solid var(--border);
+      filter: grayscale(15%);
+      box-shadow: 0 40px 80px rgba(0,0,0,.6);
+    }
+    .hero-image::before {
+      content: ''; position: absolute; top: -16px; left: -16px;
+      width: 100%; height: 100%;
+      border: 1px solid rgba(201,168,76,.25); border-radius: 4px;
+    }
+    .scroll-hint { position: absolute; bottom: 2.5rem; left: 50%; transform: translateX(-50%); font-size: .72rem; letter-spacing: .15em; color: var(--muted); text-transform: uppercase; text-align: center; }
+    .scroll-hint::after { content: ''; display: block; width: 1px; height: 40px; background: var(--gold); margin: .6rem auto 0; animation: scrollPulse 1.8s ease-in-out infinite; }
+    @keyframes scrollPulse { 0%,100%{opacity:.2;transform:scaleY(1)} 50%{opacity:1;transform:scaleY(1.3)} }
+
+    /* ─── SECTIONS ─── */
+    section { padding: 5.5rem 6%; }
+    .section-eyebrow { font-size: .75rem; letter-spacing: .2em; text-transform: uppercase; color: var(--gold); margin-bottom: .8rem; }
+    .section-title { font-family: var(--font-display); font-size: clamp(2rem,3.5vw,2.8rem); color: #fff; margin-bottom: 1.2rem; }
+    .section-desc { color: var(--muted); max-width: 560px; line-height: 1.75; margin-bottom: 3rem; }
+    .divider { width: 48px; height: 2px; background: var(--gold); margin-bottom: 2rem; }
+
+    /* ─── DEMOS ─── */
+    #demos { background: var(--dark2); }
+    .filter-row { display: flex; gap: .6rem; flex-wrap: wrap; margin-bottom: 2rem; }
+    .filter-btn {
+      padding: .4rem 1.1rem; border: 1px solid var(--border); border-radius: 2px;
+      background: transparent; color: var(--muted); font-size: .8rem; cursor: pointer;
+      letter-spacing: .05em; transition: .2s;
+    }
+    .filter-btn.active, .filter-btn:hover { border-color: var(--gold); color: var(--gold); background: rgba(201,168,76,.06); }
+    .style-row { display: flex; gap: .6rem; margin-bottom: 2.5rem; flex-wrap: wrap; align-items: center; }
+    .style-label { font-size: .78rem; color: var(--muted); margin-right: .3rem; letter-spacing: .06em; }
+    .demo-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px,1fr)); gap: 1.2rem; }
+
+    
+    .demo-card:hover { border-color: var(--gold); transform: translateY(-2px); }
+    .demo-tag { display: inline-block; background: rgba(201,168,76,.12); color: var(--gold); font-size: .7rem; padding: .2rem .6rem; border-radius: 2px; letter-spacing: .07em; margin-bottom: .8rem; }
+    .demo-title { font-family: var(--font-display); font-size: 1.1rem; color: #fff; margin-bottom: .3rem; }
+    .demo-desc { font-size: .8rem; color: var(--muted); margin-bottom: 1rem; }
+    .audio-player { width: 100%; }
+    audio { width: 100%; height: 36px; }
+    audio::-webkit-media-controls-panel { background: var(--dark4); }
+    .script-toggle { margin-top: .8rem; background: none; border: none; color: var(--gold); font-size: .78rem; cursor: pointer; padding: 0; letter-spacing: .06em; text-decoration: underline; text-underline-offset: 3px; }
+    .script-content { display: none; margin-top: .8rem; padding: .8rem; background: var(--dark4); border-left: 2px solid var(--gold); font-size: .82rem; color: var(--muted); line-height: 1.7; border-radius: 0 2px 2px 0; direction: rtl; text-align: right; }
+    .script-content.en { direction: ltr; text-align: left; }
+    .script-content.open { display: block; }
+
+    /* ─── ABOUT ─── */
+    #about { display: flex; gap: 5rem; align-items: center; flex-wrap: wrap; }
+    .about-image { flex: 0 0 340px; position: relative; }
+    .about-image img { width: 100%; aspect-ratio: 3/4; object-fit: cover; border-radius: 4px; filter: grayscale(10%); }
+    .about-badge {
+      position: absolute; bottom: -1.5rem; right: -1.5rem;
+      background: var(--gold); color: var(--dark);
+      padding: 1rem 1.2rem; text-align: center; border-radius: 2px;
+    }
+    .about-badge strong { display: block; font-size: 1.8rem; font-weight: 700; line-height: 1; }
+    .about-badge span { font-size: .7rem; letter-spacing: .1em; text-transform: uppercase; }
+    .about-content { flex: 1; min-width: 280px; }
+    .about-content p { color: var(--muted); line-height: 1.8; margin-bottom: 1rem; }
+    .skills-chips { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1.5rem 0; }
+    .chip { padding: .35rem .9rem; border: 1px solid var(--border); border-radius: 2px; font-size: .78rem; color: var(--text); letter-spacing: .06em; }
+
+    /* ─── SERVICES ─── */
+    #services { background: var(--dark2); }
+    .services-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px,1fr)); gap: 1.2rem; }
+    .service-card {
+      background: var(--dark3); border: 1px solid var(--border); border-radius: 4px;
+      padding: 1.8rem; transition: .2s;
+    }
+    .service-card:hover { border-color: var(--gold); }
+    .service-icon { font-size: 1.8rem; margin-bottom: 1rem; }
+    .service-card h3 { font-family: var(--font-display); font-size: 1.1rem; color: #fff; margin-bottom: .6rem; }
+    .service-card p { font-size: .85rem; color: var(--muted); line-height: 1.7; }
+
+    /* ─── STUDIO ─── */
+    #studio { text-align: center; }
+    #studio .section-title, #studio .section-desc { margin-left: auto; margin-right: auto; }
+    #studio .divider { margin-left: auto; margin-right: auto; }
+    .studio-features { display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; margin-top: 2rem; }
+    .studio-feat { display: flex; align-items: center; gap: .6rem; padding: .7rem 1.2rem; border: 1px solid var(--border); border-radius: 2px; font-size: .85rem; color: var(--text); }
+    .studio-feat::before { content: '✓'; color: var(--gold); font-weight: 700; }
+    .studio-label { display: inline-block; margin-top: 2rem; background: rgba(201,168,76,.1); color: var(--gold); padding: .5rem 1.4rem; border-radius: 2px; font-size: .8rem; letter-spacing: .1em; text-transform: uppercase; }
+
+    /* ─── CONTACT ─── */
+    #contact { display: flex; gap: 5rem; flex-wrap: wrap; align-items: flex-start; }
+    .contact-info { flex: 1; min-width: 260px; }
+    .contact-detail { display: flex; flex-direction: column; margin-bottom: 1.6rem; }
+    .contact-detail strong { font-size: .7rem; letter-spacing: .15em; text-transform: uppercase; color: var(--gold); margin-bottom: .3rem; }
+    .contact-detail a, .contact-detail span { color: var(--text); text-decoration: none; font-size: .95rem; }
+    .contact-detail a:hover { color: var(--gold); }
+    .social-links { display: flex; gap: .8rem; margin-top: 1.5rem; }
+    .social-link {
+      width: 38px; height: 38px; border: 1px solid var(--border); border-radius: 2px;
+      display: flex; align-items: center; justify-content: center;
+      color: var(--muted); font-size: .9rem; text-decoration: none; transition: .2s;
+    }
+    .social-link:hover { border-color: var(--gold); color: var(--gold); }
+    .contact-form { flex: 1; min-width: 280px; }
+    .contact-form h3 { font-family: var(--font-display); font-size: 1.4rem; color: #fff; margin-bottom: 1.4rem; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    .form-group { display: flex; flex-direction: column; margin-bottom: 1rem; }
+    .form-group label { font-size: .75rem; color: var(--muted); margin-bottom: .4rem; letter-spacing: .06em; }
+    .form-group input, .form-group select, .form-group textarea {
+      background: var(--dark3); border: 1px solid var(--border); border-radius: 2px;
+      padding: .75rem 1rem; color: var(--text); font-family: var(--font-body); font-size: .9rem;
+      transition: border-color .2s; outline: none;
+    }
+    .form-group input:focus, .form-group select:focus, .form-group textarea:focus { border-color: var(--gold); }
+    .form-group select option { background: var(--dark3); }
+    .form-group textarea { resize: vertical; min-height: 110px; }
+    .btn-submit {
+      width: 100%; background: var(--gold); color: var(--dark); padding: .85rem;
+      border: none; border-radius: 2px; font-weight: 600; font-size: .95rem;
+      cursor: pointer; letter-spacing: .05em; transition: background .2s;
+    }
+    .btn-submit:hover { background: var(--gold-light); }
+
+    /* ─── FOOTER ─── */
+    footer { background: var(--dark2); border-top: 1px solid var(--border); padding: 3.5rem 6% 2rem; }
+    .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 3rem; margin-bottom: 2.5rem; }
+    .footer-brand p { color: var(--muted); font-size: .85rem; line-height: 1.7; margin-top: .8rem; max-width: 280px; }
+    footer h4 { font-size: .75rem; letter-spacing: .15em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; }
+    footer ul { list-style: none; }
+    footer ul li { margin-bottom: .5rem; }
+    footer ul li a { color: var(--muted); text-decoration: none; font-size: .85rem; transition: color .2s; }
+    footer ul li a:hover { color: var(--gold); }
+    .footer-bottom { border-top: 1px solid var(--border); padding-top: 1.5rem; text-align: center; font-size: .8rem; color: var(--muted); }
+
+    /* ─── RESPONSIVE ─── */
+    @media (max-width: 768px) {
+      nav { padding: 0 4%; }
+      .nav-links { display: none; }
+      #home { flex-direction: column; padding-top: 90px; text-align: center; gap: 2.5rem; }
+      .hero-image { flex: none; }
+      .hero-image img { width: 260px; height: 320px; }
+      .hero-image::before { display: none; }
+      .btn-row { justify-content: center; }
+      #about { flex-direction: column; padding: 3.5rem 5%; gap: 3rem; }
+      .about-image { flex: none; width: 260px; }
+      .about-badge { right: 0; bottom: -1rem; }
+      #contact { flex-direction: column; padding: 3.5rem 5%; }
+      .form-row { grid-template-columns: 1fr; }
+      .footer-grid { grid-template-columns: 1fr; gap: 2rem; }
+      section { padding: 4rem 5%; }
+    }
+
+    /* ===== Layout Fixes ===== */
+
+html,
+body {
+  width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+img,
+audio {
+  max-width: 100% !important;
+  display: block !important;
+}
+
+/* Hero */
+.hero-image {
+  flex: 1 !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.hero-image img {
+  width: 100% !important;
+  max-width: 380px !important;
+  height: auto !important;
+  aspect-ratio: 3/4 !important;
+}
+
+/* About */
+.about-image {
+  flex: 1 !important;
+  max-width: 340px !important;
+}
+
+.about-content {
+  flex: 1 1 500px !important;
+}
+
+/* Contact */
+.contact-info,
+.contact-form {
+  flex: 1 1 450px !important;
+}
+
+.contact-form,
+.contact-form form {
+  width: 100% !important;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  width: 100% !important;
+}
+
+/* Demo section */
+.demo-grid,
+.demo-card {
+  width: 100% !important;
+}
+
+/* Footer */
+.footer-grid {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)) !important;
+}
+
+/* Better desktop width usage */
+section {
+  padding-left: clamp(20px, 5vw, 80px) !important;
+  padding-right: clamp(20px, 5vw, 80px) !important;
+}
+
+nav {
+  padding-left: clamp(20px, 5vw, 80px) !important;
+  padding-right: clamp(20px, 5vw, 80px) !important;
+}
+  </style> -->
+  <style type="text/css" id="ctre_styles">
+			#ctre_wnd {
+				position: fixed; bottom: 0; right: 10px;
+				background: #fff; box-shadow: 0px 0px 40px rgba(0,0,0,0.15);
+				border-radius: 3px 3px 0 0;
+				z-index: 2147483647;
+			}
+
+			@media (prefers-color-scheme: dark) {
+				#ctre_wnd { background: #000; box-shadow: 0px 0px 40px rgba(255,255,255,0.15); }
+			}
+			</style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+<link type="text/css" rel="stylesheet" id="dark-mode-custom-link"><link type="text/css" rel="stylesheet" id="dark-mode-general-link"><style lang="en" type="text/css" id="dark-mode-custom-style"></style><style lang="en" type="text/css" id="dark-mode-native-style"></style><style lang="en" type="text/css" id="dark-mode-native-sheet"></style><style>
+        .animate-in {
+            opacity: 1 !important;
+            transform: translateY(0) !important;
+        }
+    </style><style>undefined</style><link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="use-credentials"><link rel="preconnect" href="https://fonts.gstatic.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&amp;display=swa"></head>
+<body>
+
+<!-- NAV -->
+<nav class="navbar scrolled" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-text">Nayera</span>
+                <span class="logo-accent">Sakr</span>
+            </a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-link active" style="color: var(--gold);">Home</a></li>
+                <li><a href="#demos" class="nav-link" style="">Demos</a></li>
+                <li><a href="#about" class="nav-link" style="">About</a></li>
+                <li><a href="#services" class="nav-link" style="">Services</a></li>
+                <li><a href="#contact" class="nav-link" style="">Contact</a></li>
+            </ul>
+            <a href="#contact" class="cta-button">Hire Me</a>
+            <button class="mobile-menu-btn" id="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="hero-bg-pattern"></div>
+  <div class="hero-content">
+   <div class="hero-text"> <p class="hero-subtitle">Professional Bilingual Voice Over Artist</p>
+    <h1 class="hero-title">Words inform. Voice inspires.</h1>
+    <p class="hero-description">Professional Arabic and English voice-over artist, expert in giving life, personality, and emotion to every script. From commercials and audiobook narration to dubbing and IVR.</p>
+<div class="hero-cta">
+                    <a href="#demos" class="btn btn-primary">
+                        <i class="fas fa-play"></i>
+                        Listen to Demos
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">Get a Quote</a>
+                </div>
+    
+   </div>
+   <div class="hero-visual" style="transform: translateY(154.5px);">
+                <div class="hero-image-container">
+                    <div class="hero-image-wrapper">
+                        <img src="Nayera.jpg" alt="Nayera Sakr" class="hero-photo">
+                    </div>
+                    <div class="sound-wave">
+                        <div class="wave-bar"></div>
+                        <div class="wave-bar"></div>
+                        <div class="wave-bar"></div>
+                        <div class="wave-bar"></div>
+                        <div class="wave-bar"></div>
+                    </div>
+                </div>
+            </div>
+  </div>
+  
+  <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="mouse-wheel"></div>
+            </div>
+            <span>Scroll Down</span>
+        </div>
+</section>
+
+<!-- DEMOS -->
+<section class="demos" id="demos">
+    <div class="container">
+  
+  
+  <div class="section-header animate-in" style="opacity: 0; transform: translateY(30px); transition: opacity 0.6s, transform 0.6s;">
+                <span class="section-tag">Voice Samples</span>
+                <h2 class="section-title">Listen to My Demos</h2>
+                <p class="section-description">
+                    Explore a variety of voice samples showcasing my versatility across different genres and styles in both Arabic and English.
+                </p>
+            </div>
+  
+
+  <div class="demo-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="arabic">Arabic</button>
+                <button class="filter-btn" data-filter="english">English</button>
+            </div>
+  <!-- <div class="style-row">
+    <span class="style-label">Audio Style:</span>
+    <button class="filter-btn active">With Music</button>
+    <button class="filter-btn">Clear Voice</button>
+  </div> -->
+
+  <!-- <div class="demo-grid">
+
+    <div class="demo-card">
+      <span class="demo-tag">Arabic</span>
+      <h3 class="demo-title">Commercial – Engez Lee App</h3>
+      <p class="demo-desc">Dynamic and energetic advertising voice for a mobile app</p>
+      <audio controls class="audio-player"><source src="" type="audio/mpeg"></audio>
+      <button class="script-toggle" onclick="toggleScript(this)">View Script</button>
+      <div class="script-content">إيه رأيك تعمل كل حاجة من موبايلك… من غير زحمة، ومن غير لف ودوران؟ مع أبلكيشن انجزلي، حياتك بقت أسهل بكتير!</div>
+    </div>
+
+    <div class="demo-card">
+      <span class="demo-tag">Arabic</span>
+      <h3 class="demo-title">IVR – Bank Phone System</h3>
+      <p class="demo-desc">Professional banking IVR with warm, trustworthy tone</p>
+      <audio controls class="audio-player"><source src="" type="audio/mpeg"></audio>
+      <button class="script-toggle" onclick="toggleScript(this)">View Script</button>
+      <div class="script-content">مرحبًا بيك في بنك مصر. لخدمتِك بشكل أفضل… من فضلك اختار من القائمة التالية.</div>
+    </div>
+
+    <div class="demo-card">
+      <span class="demo-tag">English</span>
+      <h3 class="demo-title">IVR – Customer Service</h3>
+      <p class="demo-desc">Clear and professional English telephone prompts</p>
+      <audio controls class="audio-player"><source src="" type="audio/mpeg"></audio>
+      <button class="script-toggle" onclick="toggleScript(this)">View Script</button>
+      <div class="script-content en">To ensure our service quality, kindly note that this call might be recorded. For residential, press 1. For commercial or administrative properties, press 2.</div>
+    </div>
+
+    <div class="demo-card">
+      <span class="demo-tag">Arabic</span>
+      <h3 class="demo-title">Audiobook Narration</h3>
+      <p class="demo-desc">Engaging storytelling with captivating narrative style</p>
+      <audio controls class="audio-player"><source src="" type="audio/mpeg"></audio>
+      <button class="script-toggle" onclick="toggleScript(this)">View Script</button>
+      <div class="script-content">في عالم يمتلئ بالأسرار، حيث تختبئ الحقيقة خلف طبقات من الغموض… نبدأ رحلة تكشف ما لم يُكشف من قبل.</div>
+    </div>
+
+    <div class="demo-card">
+      <span class="demo-tag">Arabic</span>
+      <h3 class="demo-title">Children's Story</h3>
+      <p class="demo-desc">Fun and engaging voice for kids' programs</p>
+      <audio controls class="audio-player"><source src="" type="audio/mpeg"></audio>
+      <button class="script-toggle" onclick="toggleScript(this)">View Script</button>
+      <div class="script-content">في صباح يوم مشمس، استيقظ الأرنب فُلفُل من نومه، وقفز خارج الجحر يبحث عن الجزر الطازج.</div>
+    </div>
+
+    <div class="demo-card">
+      <span class="demo-tag">Arabic</span>
+      <h3 class="demo-title">Documentary Narration</h3>
+      <p class="demo-desc">Professional narration for documentaries and corporate videos</p>
+      <audio controls class="audio-player"><source src="" type="audio/mpeg"></audio>
+      <button class="script-toggle" onclick="toggleScript(this)">View Script</button>
+      <div class="script-content">في عصر تسارعت فيه الابتكارات، لم تعد التكنولوجيا مجرد أدوات، بل أصبحت رفيقًا يوميًا يشكّل طريقة عيشنا.</div>
+    </div>
+
+    <div class="demo-card">
+      <span class="demo-tag">Arabic</span>
+      <h3 class="demo-title">Character Dubbing</h3>
+      <p class="demo-desc">Expressive character voice with emotional depth</p>
+      <audio controls class="audio-player"><source src="" type="audio/mpeg"></audio>
+      <button class="script-toggle" onclick="toggleScript(this)">View Script</button>
+      <div class="script-content">صراحة؟ النهارده كان يوم بايخ بمعنى الكلمة. صحيت متأخر، واتفاجئت إن الميّه قاطعة.</div>
+    </div>
+
+  </div> -->
+  <div class="demos-grid">
+                <!-- Commercial Demo - Engez Lee -->
+                <div class="demo-card animate-in" data-category="commercial" data-lang="arabic" style="opacity: 0; transform: translateY(30px); transition: opacity 0.6s, transform 0.6s;">
+                    <div class="demo-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <div class="demo-content">
+                        <div class="demo-header">
+                            <h3>Vortex Development - Teaser Official Corporate Ad</h3>
+                            <span class="demo-lang-badge arabic">Arabic</span>
+                        </div>
+                        <p>An official teaser advertisement for Vortex Development, performed in a deep, luxurious, and sophisticated vocal tone designed to reflect the prestige, exclusivity, and elegance of the brand.</p>
+                        <!-- <div class="script-preview">
+                            <button class="script-toggle">
+                                <i class="fas fa-file-alt"></i> View Script
+                            </button>
+                            <div class="script-content">
+                                <p>إيه رأيك تعمل كل حاجة من موبايلك… من غير زحمة، ومن غير لف ودوران؟ مع أبلكيشن انجزلي، حياتك بقت أسهل بكتير! دلوقتي تقدر تحجز، تطلب، تشتري، وتتابع كل تفاصيل يومك بخطوة واحدة… كل اللي عليك تفتح الأبلكيشن، وتسيب الباقي علينا. واجهة بسيطة… سرعة في الاستخدام… وخدمة هتخلّي كل حاجة في إيدك.</p>
+                            </div>
+                        </div> -->
+                        <div class="audio-player" data-src="Voice/Vortex Development - Teaser Official Corporate Ad..mp3" data-src-music="Voice/Vortex Development - Teaser Official Corporate Ad..mp3">
+                            <button class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <div class="progress-container">
+                                <div class="progress-bar"></div>
+                            </div>
+                            <span class="duration">0:22</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- IVR Demo - Arabic Bank -->
+                <div class="demo-card animate-in" data-category="ivr" data-lang="arabic" style="opacity: 0; transition: opacity 0.6s 0.1s, transform 0.6s; transform: translateY(30px);">
+                    <div class="demo-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <div class="demo-content">
+                        <div class="demo-header">
+                            <h3>Pizza Hut - Commercial Ad</h3>
+                            <span class="demo-lang-badge arabic">Arabic</span>
+                        </div>
+                        <p>A joyful and energetic Pizza Hut commercial advertisement delivered with a warm, engaging vocal tone.</p>
+                        <div class="script-preview">
+                            <!-- <button class="script-toggle">
+                                <i class="fas fa-file-alt"></i> View Script
+                            </button> -->
+                            <!-- <div class="script-content">
+                                <p>مرحبًا بيك في بنك مصر. لخدمتِك بشكل أفضل… من فضلك اختار من القائمة التالية: لخدمات الحسابات الجارية والتوفير… اضغط 1 • لخدمات البطاقات الائتمانية… اضغط 2 • للتحويلات والسداد الإلكتروني… اضغط 3 • لمعرفة آخر العمليات على حسابك… اضغط 4 • للإبلاغ عن فقدان بطاقة أو تجميدها… اضغط 5 • للتحدث مع أحد ممثلي خدمة العملاء… اضغط 0 • لإعادة سماع القائمة… اضغط نجمة</p>
+                            </div> -->
+                        </div>
+                        <div class="audio-player" data-src="Voice/Pizza Hut - Commercial Ad..mp3" data-src-music="Voice/Pizza Hut - Commercial Ad..mp3">
+                            <button class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <div class="progress-container">
+                                <div class="progress-bar"></div>
+                            </div>
+                            <span class="duration">0:32</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Nawy Now - Commercial Ad -->
+                <div class="demo-card animate-in" data-category="ivr" data-lang="arabic" style="opacity: 0; transition: opacity 0.6s 0.2s, transform 0.6s; transform: translateY(30px);">
+                    <div class="demo-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <div class="demo-content">
+                        <div class="demo-header">
+                            <h3>Nawy Now - Commercial Ad</h3>
+                            <span class="demo-lang-badge english">English</span>
+                        </div>
+                        <p>A real estate commercial delivered with a fast, energetic, and humorous voice style that keeps the audience entertained.</p>
+                        <!-- <div class="script-preview">
+                            <button class="script-toggle">
+                                <i class="fas fa-file-alt"></i> View Script
+                            </button>
+                            <div class="script-content">
+                                <p>To ensure our service quality, kindly note that this call might be recorded. There will be a short survey after the end of this call to improve our services. For residential, press 1. For commercial or administrative properties, press 2. For re-sale, press 3. For any other inquiries, press 4. For complaints, press 5. To repeat these options, press star. In case none of the options were selected: We haven't received any feedback from you and all the options will be repeated. In case the agents are busy: All our customer service representatives are busy assisting other customers. Please hold on and we will answer your call shortly.</p>
+                            </div>
+                        </div> -->
+                        <div class="audio-player" data-src="Voice/Nawy Now - Commercial Ad..mp3" data-src-music="Voice/Nawy Now - Commercial Ad..mp3">
+                            <button class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <div class="progress-container">
+                                <div class="progress-bar"></div>
+                            </div>
+                            <span class="duration">0:32</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MarkSales Agency – Official Corporate Ad -->
+                <div class="demo-card animate-in" data-category="audiobook" data-lang="arabic" style="opacity: 0; transition: opacity 0.6s 0.3s, transform 0.6s; transform: translateY(30px);">
+                    <div class="demo-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <div class="demo-content">
+                        <div class="demo-header">
+                            <h3>MarkSales Agency – Official Corporate Ad</h3>
+                            <span class="demo-lang-badge arabic">Arabic</span>
+                        </div>
+                        <p>A corporate promotional advertisement for Mark Sales Agency, performed in a smooth, engaging, and professional tone that highlights the agency's services while creating a strong connection with the audience.</p>
+                        <!-- <div class="script-preview">
+                            <button class="script-toggle">
+                                <i class="fas fa-file-alt"></i> View Script
+                            </button>
+                            <div class="script-content">
+                                <p>في عالم يمتلئ بالأسرار، حيث تختبئ الحقيقة خلف طبقات من الغموض… نبدأ رحلة تكشف ما لم يُكشف من قبل. هل نحن مستعدون لمواجهة الأسئلة التي لطالما تجاهلناها؟ هذه… ليست مجرد قصة. إنها الحقيقة التي تنتظر أن تُروى.</p>
+                            </div>
+                        </div> -->
+                        <div class="audio-player" data-src="Voice/MarkSales Agency – Official Corporate Ad.mp3" data-src-music="Voice/MarkSales Agency – Official Corporate Ad.mp3">
+                            <button class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <div class="progress-container">
+                                <div class="progress-bar"></div>
+                            </div>
+                            <span class="duration">1:12</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Talabat - Official Commercial Ad -->
+                <div class="demo-card animate-in" data-category="kids" data-lang="english" style="opacity: 0; transition: opacity 0.6s 0.4s, transform 0.6s; transform: translateY(30px);">
+                    <div class="demo-icon">
+                        <i class="fas fa-child"></i>
+                    </div>
+                    <div class="demo-content">
+                        <div class="demo-header">
+                            <h3>Talabat - Official Commercial Ad</h3>
+                            <span class="demo-lang-badge arabic">English</span>
+                        </div>
+                        <p>An official Talabat commercial, performed in a dynamic and engaging tone of voice that reflects the brand's fast-paced, customer-focused identity while maintaining a professional and approachable feel.</p>
+                        <!-- <div class="script-preview">
+                            <button class="script-toggle">
+                                <i class="fas fa-file-alt"></i> View Script
+                            </button>
+                            <div class="script-content">
+                                <p>في صباح يوم مشمس، استيقظ الأرنب فُلفُل من نومه، وقفز خارج الجحر يبحث عن الجزر الطازج. وبينما هو يقفز بسعادة، سمع صوتًا غريبًا خلف الشجرة... تُرى، ماذا وجد فُلفُل؟</p>
+                            </div>
+                        </div> -->
+                        <div class="audio-player" data-src="Voice/Talabat - Official Commercial Ad.mp3" data-src-music="Voice/Talabat - Official Commercial Ad.mp3">
+                            <button class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <div class="progress-container">
+                                <div class="progress-bar"></div>
+                            </div>
+                            <span class="duration">0:36</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Braoun Developments - Corporate Ad -->
+                <div class="demo-card animate-in" data-category="narration" data-lang="english" style="opacity: 0; transition: opacity 0.6s 0.5s, transform 0.6s; transform: translateY(30px);">
+                    <div class="demo-icon">
+                        <i class="fas fa-microphone"></i>
+                    </div>
+                    <div class="demo-content">
+                        <div class="demo-header">
+                            <h3>Braoun Developments - Corporate Ad</h3>
+                            <span class="demo-lang-badge arabic">English</span>
+                        </div>
+                        <p>An inspirational real estate commercial with a rich, deep vocal tone that conveys trust, aspiration, and purpose.</p>
+                        <!-- <div class="script-preview">
+                            <button class="script-toggle">
+                                <i class="fas fa-file-alt"></i> View Script
+                            </button>
+                            <div class="script-content">
+                                <p>في عصر تسارعت فيه الابتكارات، لم تعد التكنولوجيا مجرد أدوات، بل أصبحت رفيقًا يوميًا يشكّل طريقة عيشنا. من الذكاء الاصطناعي إلى علوم الفضاء، تتوسع حدود المعرفة، وتقترب الأحلام من الواقع أكثر من أي وقت مضى.</p>
+                            </div>
+                        </div> -->
+                        <div class="audio-player" data-src="Voice/Braoun Developments - Corporate Ad.mp3" data-src-music="Voice/Braoun Developments - Corporate Ad.mp3">
+                            <button class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <div class="progress-container">
+                                <div class="progress-bar"></div>
+                            </div>
+                            <span class="duration">0:48</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chegg Study Pack – Promotional Explainer Ad -->
+                <div class="demo-card animate-in" data-category="dubbing" data-lang="english" style="opacity: 0; transition: opacity 0.6s, transform 0.6s; transform: translateY(30px);">
+                    <div class="demo-icon">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <div class="demo-content">
+                        <div class="demo-header">
+                            <h3>Chegg Study Pack – Promotional Explainer Ad</h3>
+                            <span class="demo-lang-badge arabic">English</span>
+                        </div>
+                        <p>A promotional explainer advertisement for Chegg Study Pack, delivered in an energetic, engaging, and informative tone that communicates the platform's benefits with clarity and enthusiasm.</p>
+                        <!-- <div class="script-preview">
+                            <button class="script-toggle">
+                                <i class="fas fa-file-alt"></i> View Script
+                            </button>
+                            <div class="script-content">
+                                <p>صراحة؟ النهارده كان يوم بايخ بمعنى الكلمة. صحيت متأخر، واتفاجئت إن الميّه قاطعة. نزلت الشارع، لقيت الميكروباص معدّي قدامي وأنا لسه بلبس السماعة. وصلت الشغل، المدير بيبصلي من فوق لتحت كأني خدت من وقته دقايق من عمره! وما خلصتش بقى، رجعت البيت لقيت الكهربا قاطعة. قلت أطلب أكل، والتطبيق مش شغّال! يعني باختصار: يوم يفصّل أي بني آدم.</p>
+                            </div>
+                        </div> -->
+                        <div class="audio-player" data-src="Voice/Chegg Study Pack – Promotional Explainer Ad.mp3" data-src-music="Voice/Chegg Study Pack – Promotional Explainer Ad.mp3">
+                            <button class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <div class="progress-container">
+                                <div class="progress-bar"></div>
+                            </div>
+                            <span class="duration">1:01</span>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Official Arabic IVR System – The Gate Real Estate -->
+                <div class="demo-card animate-in" data-category="dubbing" data-lang="arabic" style="opacity: 0; transition: opacity 0.6s 0.1s, transform 0.6s; transform: translateY(30px);">
+                    <div class="demo-icon">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <div class="demo-content">
+                        <div class="demo-header">
+                            <h3>Official Arabic IVR System – The Gate Real Estate</h3>
+                            <span class="demo-lang-badge arabic">Arabic</span>
+                        </div>
+                        <p>An Arabic IVR system for The Gate Real Estate Company, performed in a professional and approachable vocal style that guides callers effectively while maintaining a polished corporate image.</p>
+                        <!-- <div class="script-preview">
+                            <button class="script-toggle">
+                                <i class="fas fa-file-alt"></i> View Script
+                            </button>
+                            <div class="script-content">
+                                <p>صراحة؟ النهارده كان يوم بايخ بمعنى الكلمة. صحيت متأخر، واتفاجئت إن الميّه قاطعة. نزلت الشارع، لقيت الميكروباص معدّي قدامي وأنا لسه بلبس السماعة. وصلت الشغل، المدير بيبصلي من فوق لتحت كأني خدت من وقته دقايق من عمره! وما خلصتش بقى، رجعت البيت لقيت الكهربا قاطعة. قلت أطلب أكل، والتطبيق مش شغّال! يعني باختصار: يوم يفصّل أي بني آدم.</p>
+                            </div>
+                        </div> -->
+                        <div class="audio-player" data-src="Voice/Official Arabic IVR System – The Gate Real Estate.mp3" data-src-music="Voice/Official Arabic IVR System – The Gate Real Estate.mp3">
+                            <button class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <div class="progress-container">
+                                <div class="progress-bar"></div>
+                            </div>
+                            <span class="duration">0:24</span>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Mars TeleServe – Official IVR System -->
+                <div class="demo-card animate-in" data-category="dubbing" data-lang="english" style="opacity: 0; transition: opacity 0.6s 0.2s, transform 0.6s; transform: translateY(30px);">
+                    <div class="demo-icon">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <div class="demo-content">
+                        <div class="demo-header">
+                            <h3>Mars TeleServe – Official IVR System</h3>
+                            <span class="demo-lang-badge arabic">English</span>
+                        </div>
+                        <p>An official IVR system for Mars TeleServe, performed in a friendly, professional, and engaging tone of voice designed to create a welcoming caller experience while maintaining clear and effective communication.</p>
+                        <!-- <div class="script-preview">
+                            <button class="script-toggle">
+                                <i class="fas fa-file-alt"></i> View Script
+                            </button>
+                            <div class="script-content">
+                                <p>صراحة؟ النهارده كان يوم بايخ بمعنى الكلمة. صحيت متأخر، واتفاجئت إن الميّه قاطعة. نزلت الشارع، لقيت الميكروباص معدّي قدامي وأنا لسه بلبس السماعة. وصلت الشغل، المدير بيبصلي من فوق لتحت كأني خدت من وقته دقايق من عمره! وما خلصتش بقى، رجعت البيت لقيت الكهربا قاطعة. قلت أطلب أكل، والتطبيق مش شغّال! يعني باختصار: يوم يفصّل أي بني آدم.</p>
+                            </div>
+                        </div> -->
+                        <div class="audio-player" data-src="Voice/Mars TeleServe – Official IVR System.mp3" data-src-music="Voice/Mars TeleServe – Official IVR System.mp3">
+                            <button class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <div class="progress-container">
+                                <div class="progress-bar"></div>
+                            </div>
+                            <span class="duration">1:39</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Horror Story Narration -->
+                <div class="demo-card animate-in" data-category="dubbing" data-lang="arabic" style="opacity: 0; transition: opacity 0.6s 0.3s, transform 0.6s; transform: translateY(30px);">
+                    <div class="demo-icon">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <div class="demo-content">
+                        <div class="demo-header">
+                            <h3>Horror Story Narration</h3>
+                            <span class="demo-lang-badge arabic">Arabic</span>
+                        </div>
+                        <p>A horror story narration in Egyptian Arabic, delivered with dramatic pacing and expressive storytelling to create suspense, mystery, and emotional engagement.</p>
+                        <!-- <div class="script-preview">
+                            <button class="script-toggle">
+                                <i class="fas fa-file-alt"></i> View Script
+                            </button>
+                            <div class="script-content">
+                                <p>صراحة؟ النهارده كان يوم بايخ بمعنى الكلمة. صحيت متأخر، واتفاجئت إن الميّه قاطعة. نزلت الشارع، لقيت الميكروباص معدّي قدامي وأنا لسه بلبس السماعة. وصلت الشغل، المدير بيبصلي من فوق لتحت كأني خدت من وقته دقايق من عمره! وما خلصتش بقى، رجعت البيت لقيت الكهربا قاطعة. قلت أطلب أكل، والتطبيق مش شغّال! يعني باختصار: يوم يفصّل أي بني آدم.</p>
+                            </div>
+                        </div> -->
+                        <div class="audio-player" data-src="Voice/Horror Story Narration.mp3" data-src-music="Voice/Horror Story Narration.mp3">
+                            <button class="play-btn"><i class="fas fa-play"></i></button>
+                            <div class="progress-container">
+                                <div class="progress-bar" style="width: 1.42565%;"></div>
+                            </div>
+                            <span class="duration">0:02</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Ancient Egyptian History  - Official YouTube Documentary -->
+                <div class="demo-card animate-in" data-category="dubbing" data-lang="english" style="opacity: 0; transition: opacity 0.6s 0.4s, transform 0.6s; transform: translateY(30px);">
+                    <div class="demo-icon">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <div class="demo-content">
+                        <div class="demo-header">
+                            <h3>Ancient Egyptian History  - Official YouTube Documentary</h3>
+                            <span class="demo-lang-badge arabic">English</span>
+                        </div>
+                        <p>An official YouTube documentary about Egyptian history and civilization, exploring The Book of the Dead, narrated with a deep, rich voice to match the mystery and grandeur of ancient Egypt.</p>
+                        <!-- <div class="script-preview">
+                            <button class="script-toggle">
+                                <i class="fas fa-file-alt"></i> View Script
+                            </button>
+                            <div class="script-content">
+                                <p>صراحة؟ النهارده كان يوم بايخ بمعنى الكلمة. صحيت متأخر، واتفاجئت إن الميّه قاطعة. نزلت الشارع، لقيت الميكروباص معدّي قدامي وأنا لسه بلبس السماعة. وصلت الشغل، المدير بيبصلي من فوق لتحت كأني خدت من وقته دقايق من عمره! وما خلصتش بقى، رجعت البيت لقيت الكهربا قاطعة. قلت أطلب أكل، والتطبيق مش شغّال! يعني باختصار: يوم يفصّل أي بني آدم.</p>
+                            </div>
+                        </div> -->
+                        <div class="audio-player" data-src="Voice/Ancient.mp3" data-src-music="Voice/Ancient.mp3">
+                            <button class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <div class="progress-container">
+                                <div class="progress-bar"></div>
+                            </div>
+                            <span class="duration">1:41</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Egypt's Queen Hatshepsut – Official YouTube Documentary -->
+                <div class="demo-card animate-in" data-category="dubbing" data-lang="english" style="opacity: 0; transition: opacity 0.6s 0.5s, transform 0.6s; transform: translateY(30px);">
+                    <div class="demo-icon">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <div class="demo-content">
+                        <div class="demo-header">
+                            <h3>Egypt's Queen Hatshepsut – Official YouTube Documentary</h3>
+                            <span class="demo-lang-badge arabic">English</span>
+                        </div>
+                        <p>A documentary-style narration exploring the legend and reign of Egypts Queen Hatshepsut, delivered in a deep, rich voice that reflects the grandeur and majesty of ancient Egyptian history.</p>
+                        <!-- <div class="script-preview">
+                            <button class="script-toggle">
+                                <i class="fas fa-file-alt"></i> View Script
+                            </button>
+                            <div class="script-content">
+                                <p>صراحة؟ النهارده كان يوم بايخ بمعنى الكلمة. صحيت متأخر، واتفاجئت إن الميّه قاطعة. نزلت الشارع، لقيت الميكروباص معدّي قدامي وأنا لسه بلبس السماعة. وصلت الشغل، المدير بيبصلي من فوق لتحت كأني خدت من وقته دقايق من عمره! وما خلصتش بقى، رجعت البيت لقيت الكهربا قاطعة. قلت أطلب أكل، والتطبيق مش شغّال! يعني باختصار: يوم يفصّل أي بني آدم.</p>
+                            </div>
+                        </div> -->
+                        <div class="audio-player" data-src="Voice/Egypt's Queen Hatshepsut – Official YouTube Documentary.mp3" data-src-music="Voice/Egypt's Queen Hatshepsut – Official YouTube Documentary.mp3">
+                            <button class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <div class="progress-container">
+                                <div class="progress-bar"></div>
+                            </div>
+                            <span class="duration">1:10</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Dale Carnegie - Official YouTube Narration -->
+                <div class="demo-card animate-in" data-category="dubbing" data-lang="english" style="opacity: 0; transition: opacity 0.6s, transform 0.6s; transform: translateY(30px);">
+                    <div class="demo-icon">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <div class="demo-content">
+                        <div class="demo-header">
+                            <h3>Dale Carnegie - Official YouTube Narration</h3>
+                            <span class="demo-lang-badge arabic">English</span>
+                        </div>
+                        <p>A motivational philosophy video discussing the timeless principles of Dale Carnegie, narrated in an energetic and uplifting tone that keeps the audience engaged and inspired.</p>
+                        <!-- <div class="script-preview">
+                            <button class="script-toggle">
+                                <i class="fas fa-file-alt"></i> View Script
+                            </button>
+                            <div class="script-content">
+                                <p>صراحة؟ النهارده كان يوم بايخ بمعنى الكلمة. صحيت متأخر، واتفاجئت إن الميّه قاطعة. نزلت الشارع، لقيت الميكروباص معدّي قدامي وأنا لسه بلبس السماعة. وصلت الشغل، المدير بيبصلي من فوق لتحت كأني خدت من وقته دقايق من عمره! وما خلصتش بقى، رجعت البيت لقيت الكهربا قاطعة. قلت أطلب أكل، والتطبيق مش شغّال! يعني باختصار: يوم يفصّل أي بني آدم.</p>
+                            </div>
+                        </div> -->
+                        <div class="audio-player" data-src="Voice/Dale Carnegie - Official YouTube Narration.mp3" data-src-music="Voice/Dale Carnegie - Official YouTube Narration.mp3">
+                            <button class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <div class="progress-container">
+                                <div class="progress-bar"></div>
+                            </div>
+                            <span class="duration">0:59</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- The Life of The Crocodiles - Official Wildlife Documentary  YouTube Video -->
+                <div class="demo-card animate-in" data-category="dubbing" data-lang="english" style="opacity: 0; transition: opacity 0.6s 0.1s, transform 0.6s; transform: translateY(30px);">
+                    <div class="demo-icon">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <div class="demo-content">
+                        <div class="demo-header">
+                            <h3>The Life of The Crocodiles - Official Wildlife Documentary  YouTube Video</h3>
+                            <span class="demo-lang-badge arabic">English</span>
+                        </div>
+                        <p>An official YouTube wildlife documentary about crocodiles, narrated with an excited yet smooth and engaging vocal style.</p>
+                        <!-- <div class="script-preview">
+                            <button class="script-toggle">
+                                <i class="fas fa-file-alt"></i> View Script
+                            </button>
+                            <div class="script-content">
+                                <p>صراحة؟ النهارده كان يوم بايخ بمعنى الكلمة. صحيت متأخر، واتفاجئت إن الميّه قاطعة. نزلت الشارع، لقيت الميكروباص معدّي قدامي وأنا لسه بلبس السماعة. وصلت الشغل، المدير بيبصلي من فوق لتحت كأني خدت من وقته دقايق من عمره! وما خلصتش بقى، رجعت البيت لقيت الكهربا قاطعة. قلت أطلب أكل، والتطبيق مش شغّال! يعني باختصار: يوم يفصّل أي بني آدم.</p>
+                            </div>
+                        </div> -->
+                        <div class="audio-player" data-src="Voice/The Life of The Crocodiles - Official Wildlife Documentary  YouTube Video.mp3" data-src-music="Voice/The Life of The Crocodiles - Official Wildlife Documentary  YouTube Video.mp3">
+                            <button class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <div class="progress-container">
+                                <div class="progress-bar"></div>
+                            </div>
+                            <span class="duration">1:00</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- The Life of Armadillos - Official Wildlife Documentary  YouTube Video -->
+                <div class="demo-card animate-in" data-category="dubbing" data-lang="english" style="opacity: 0; transition: opacity 0.6s 0.2s, transform 0.6s; transform: translateY(30px);">
+                    <div class="demo-icon">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <div class="demo-content">
+                        <div class="demo-header">
+                            <h3>The Life of Armadillos - Official Wildlife Documentary  YouTube Video</h3>
+                            <span class="demo-lang-badge arabic">English</span>
+                        </div>
+                        <p>An official YouTube wildlife documentary narration showcasing the life and behavior of armadillos, delivered with a dynamic, engaging, and informative storytelling voice.</p>
+                        <!-- <div class="script-preview">
+                            <button class="script-toggle">
+                                <i class="fas fa-file-alt"></i> View Script
+                            </button>
+                            <div class="script-content">
+                                <p>صراحة؟ النهارده كان يوم بايخ بمعنى الكلمة. صحيت متأخر، واتفاجئت إن الميّه قاطعة. نزلت الشارع، لقيت الميكروباص معدّي قدامي وأنا لسه بلبس السماعة. وصلت الشغل، المدير بيبصلي من فوق لتحت كأني خدت من وقته دقايق من عمره! وما خلصتش بقى، رجعت البيت لقيت الكهربا قاطعة. قلت أطلب أكل، والتطبيق مش شغّال! يعني باختصار: يوم يفصّل أي بني آدم.</p>
+                            </div>
+                        </div> -->
+                        <div class="audio-player" data-src="Voice/The Life of Armadillos - Official Wildlife Documentary  YouTube Video.mp3" data-src-music="Voice/The Life of Armadillos - Official Wildlife Documentary  YouTube Video.mp3">
+                            <button class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <div class="progress-container">
+                                <div class="progress-bar"></div>
+                            </div>
+                            <span class="duration">1:38</span>
+                        </div>
+                    </div>
+                </div>
+  </div>
+            </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+    <div class="container">
+    <div class="about-grid">
+  <div class="about-image animate-in" style="opacity: 0; transform: translateY(30px); transition: opacity 0.6s 0.2s, transform 0.6s;">
+                    <div class="about-image-wrapper">
+                        <img src="Nayera.jpg" alt="Nayera Sakr" class="about-photo">
+                        <div class="experience-badge">
+                            <span class="years">5+</span>
+                            <span class="text">Years Experience</span>
+                        </div>
+                    </div>
+                </div>
+  <div class="about-content animate-in" style="opacity: 0; transform: translateY(30px); transition: opacity 0.6s 0.4s, transform 0.6s;">
+    <span class="section-tag">THE STORY BEHIND THE VOICE</span>
+
+    <h2 class="section-title">Hello, I'm Nayera Sakr</h2>
+    
+    <p class="about-text">For me, voice-over is more than a profession. It's the art of transforming words into experiences.</p>
+    <p class="about-text">Working in both Arabic (Modern Standard Arabic &amp; Egyptian Arabic) and English (Neutral &amp; American accents), I help brands tell their stories, creators bring ideas to life, and audiences connect with messages that matter. Whether it's a commercial, audiobook, documentary, IVR, or dubbing project, every performance is shaped by a genuine passion for storytelling and a dedication to the finest details.</p>
+    <p class="about-text">The goal is simple: to create a voice that feels authentic, resonates with listeners, and leaves a lasting impression.</p>
+    <p class="about-text highlight">Your words already have meaning. Let's give them a voice. If you're looking for a female voice artist to bring personality, emotion, and authenticity to your project, let's work together.</p>
+    <div class="skills-grid">
+                        <div class="skill-item animate-in" style="opacity: 0; transform: translateY(30px); transition: opacity 0.6s 0.4s, transform 0.6s;">
+                            <i class="fas fa-broadcast-tower"></i>
+                            <span>Commercials</span>
+                        </div>
+                        <div class="skill-item animate-in" style="opacity: 0; transform: translateY(30px); transition: opacity 0.6s 0.5s, transform 0.6s;">
+                            <i class="fas fa-book"></i>
+                            <span>Audiobooks</span>
+                        </div>
+                        <div class="skill-item animate-in" style="opacity: 0; transform: translateY(30px); transition: opacity 0.6s, transform 0.6s;">
+                            <i class="fas fa-headset"></i>
+                            <span>IVR Systems</span>
+                        </div>
+                        <div class="skill-item animate-in" style="opacity: 0; transform: translateY(30px); transition: opacity 0.6s 0.1s, transform 0.6s;">
+                            <i class="fas fa-film"></i>
+                            <span>Dubbing</span>
+                        </div>
+                        
+                        <div class="skill-item animate-in" style="opacity: 0; transform: translateY(30px); transition: opacity 0.6s 0.3s, transform 0.6s;">
+                            <i class="fas fa-building"></i>
+                            <span>Corporate</span>
+                        </div>
+                    </div>
+    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-envelope"></i>
+                        Let's Work Together
+                    </a>
+  </div>
+</div>
+</div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="services">
+  <div class="container">
+  
+  
+  <div class="section-header center animate-in" style="opacity: 0; transform: translateY(30px); transition: opacity 0.6s 0.4s, transform 0.6s;">
+                <span class="section-tag">What I Offer</span>
+                <h2 class="section-title">Professional Voice Over Services</h2>
+                <p class="section-description">
+                    From broadcast commercials to intimate audiobook narrations, I deliver high-quality 
+                    voice recordings tailored to your specific needs in both Arabic and English.
+                </p>
+            </div>
+
+  <div class="services-grid">
+                <div class="service-card animate-in" style="opacity: 0; transform: translateY(30px); transition: opacity 0.6s 0.5s, transform 0.6s;">
+                    <div class="service-icon">
+                        <i class="fas fa-ad"></i>
+                    </div>
+                    <h3>Commercials</h3>
+                    <p>Compelling voice performances that capture attention and drive results for your advertising campaigns.</p>
+                </div>
+                
+                <div class="service-card animate-in" style="opacity: 0; transform: translateY(30px); transition: opacity 0.6s, transform 0.6s;">
+                    <div class="service-icon">
+                        <i class="fas fa-book-reader"></i>
+                    </div>
+                    <h3>Audiobook Narration</h3>
+                    <p>Engaging storytelling that brings characters and narratives to life for listeners worldwide.</p>
+                </div>
+                
+                <div class="service-card animate-in" style="opacity: 0; transform: translateY(30px); transition: opacity 0.6s 0.1s, transform 0.6s;">
+                    <div class="service-icon">
+                        <i class="fas fa-phone-volume"></i>
+                    </div>
+                    <h3>IVR &amp; Phone Systems</h3>
+                    <p>Professional, clear voice prompts that enhance your customer's phone experience.</p>
+                </div>
+                
+                <div class="service-card animate-in" style="opacity: 0; transform: translateY(30px); transition: opacity 0.6s 0.2s, transform 0.6s;">
+                    <div class="service-icon">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <h3>Dubbing &amp; Animation</h3>
+                    <p>Character voices and dubbing that bring animated stories and video content to life.</p>
+                </div>
+                
+                
+                
+                <div class="service-card animate-in" style="opacity: 0; transform: translateY(30px); transition: opacity 0.6s 0.4s, transform 0.6s;">
+                    <div class="service-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>Corporate Videos</h3>
+                    <p>Professional voice overs for company presentations, promotional videos, and internal communications.</p>
+                </div>
+            </div>
+  </div>     
+</section>
+
+<!-- STUDIO -->
+<section id="studio">
+<div class="container">  
+    <div class="studio-grid">
+    <div class="studio-content animate-in" style="opacity: 0; transform: translateY(30px); transition: opacity 0.6s 0.5s, transform 0.6s;">
+    <p class="section-tag">Recording Quality</p>
+  <h2 class="section-title">Professional Studio Setup</h2>
+  
+  <p class="studio-text">Each project is recorded in a fully equipped professional studio, using high-quality gear and a sound-treated environment to guarantee pristine, broadcast-ready audio. Every recording undergoes detailed audio engineering and refinement to achieve maximum clarity, balance, and consistency.</p>
+  <p class="studio-text">The result is not just a voice recording, but a fully polished audio experience built to capture attention and maintain listener engagement.</p>
+  <div class="studio-features">
+                        <div class="studio-feature animate-in" style="opacity: 0; transform: translateY(30px); transition: opacity 0.6s, transform 0.6s;">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Broadcast-Quality Audio</span>
+                        </div>
+                        <div class="studio-feature animate-in" style="opacity: 0; transform: translateY(30px); transition: opacity 0.6s 0.1s, transform 0.6s;">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Professional Sound Engineering</span>
+                        </div>
+                        <div class="studio-feature animate-in" style="opacity: 0; transform: translateY(30px); transition: opacity 0.6s 0.2s, transform 0.6s;">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Sound-Treated Recording Environment</span>
+                        </div>
+                        <div class="studio-feature animate-in" style="opacity: 0; transform: translateY(30px); transition: opacity 0.6s 0.3s, transform 0.6s;">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Consistent High-Quality Output</span>
+                        </div>
+                        <div class="studio-feature animate-in" style="opacity: 0; transform: translateY(30px); transition: opacity 0.6s 0.4s, transform 0.6s;">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Fast Turnaround Times</span>
+                        </div>
+                        <div class="studio-feature animate-in" style="opacity: 0; transform: translateY(30px); transition: opacity 0.6s 0.5s, transform 0.6s;">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Multiple Format Delivery</span>
+                        </div>
+                    </div>
+  
+    </div>
+<div class="studio-visual animate-in" style="opacity: 0; transform: translateY(30px); transition: opacity 0.6s, transform 0.6s;">
+                    <div class="studio-image-container">
+                        <div class="studio-pattern"></div>
+                        <div class="microphone-illustration">
+                            <i class="fas fa-microphone-alt"></i>
+                        </div>
+                        <div class="studio-badge">
+                            <i class="fas fa-star"></i>
+                            <span>Pro Studio</span>
+                        </div>
+                    </div>
+                </div>
+</div>  
+</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+<div class="container">
+            <div class="contact-grid">  
+<div class="contact-info animate-in" style="opacity: 0; transform: translateY(30px); transition: opacity 0.6s 0.5s, transform 0.6s;">
+    <p class="section-tag">Get in Touch</p>
+    <h2 class="section-title">Let’s Connect</h2>
+    
+    <p class="contact-text">Have a project in mind? Reach out and let’s turn your idea into something engaging, refined, and impactful together.</p>
+<div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:nayera.sakr99@gmail.com">nayera.sakr99@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h4>Mobile Number:  WhatsApp</h4>
+      <a href="https://wa.me/+201554945224">+20 155 494 5224</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h4>Phone</h4>
+                                <a href="tel:+201030087189">+20 103 008 7189</a>
+                            </div>
+                        </div><div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Cairo, Egypt</p>
+                            </div>
+                        </div>
+                    </div>
+
+    <div class="social-links">
+      <a class="social-link" href="https://www.linkedin.com/in/nayera-sakr-a99769296" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a class="social-link" href="tiktok.com/@nayera_sakr" target="_blank" title="LinkedIn"><i class="fa-brands fa-tiktok"></i></a>
+      <a class="social-link" href="https://acesse.one/fpl8jx3" target="_blank" title="LinkedIn"><i class="fa-brands fa-instagram"></i></a>
+      <a class="social-link" href="https://shorturl.at/Qpd97" target="_blank" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+      <a class="social-link" href="https://www.behance.net/Nayera_Sakr" target="_blank" title="Facebook"><i class="fa-brands fa-behance"></i></a>
+    </div>
+  </div>
+
+  <div class="contact-form-container animate-in" style="opacity: 0; transform: translateY(30px); transition: opacity 0.6s 0.2s, transform 0.6s;">
+                    <form class="contact-form" id="contact-form" action="https://formspree.io/f/xkonyglo" method="POST">
+                        <h3>Request a Quote</h3>
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required="" placeholder=" ">
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required="" placeholder=" ">
+                            <label for="email">Email Address</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder=" ">
+                            <label for="phone">Phone Number (Optional)</label>
+                        </div>
+                        <div class="form-group">
+                            <select id="project-type" name="project-type" required="">
+                                <option value="" disabled="" selected="">Select Project Type</option>
+                                <option value="Commercial">Commercial</option>
+                                <option value="Audiobook">Audiobook</option>
+                                <option value="IVR/Phone System">IVR/Phone System</option>
+                                <option value="Dubbing">Dubbing</option>
+                                
+                                <option value="Corporate Video">Corporate Video</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="4" required="" placeholder=" "></textarea>
+                            <label for="message">Project Details</label>
+                        </div>
+                        <!-- Honeypot field for spam protection -->
+                        <input type="text" name="_gotcha" style="display:none">
+                        <!-- Subject line for email -->
+                        <input type="hidden" name="_subject" value="New Quote Request from Nayera Sakr Portfolio">
+                        <!-- Redirect after submission (fallback) -->
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#home" class="logo">
+                        <span class="logo-text">Nayera</span>
+                        <span class="logo-accent">Sakr</span>
+                    </a>
+                    <p>Professional Bilingual Arabic-English Voice Over Artist bringing your stories to life with warmth and authenticity.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#demos">Demos</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-services">
+                    <h4>Services</h4>
+                    <ul>
+                        <li>Commercials</li>
+                        <li>Audiobooks</li>
+                        <li>IVR Systems</li>
+                        <li>Dubbing</li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Nayera Sakr. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+<script>
+  function toggleScript(btn) {
+    const box = btn.nextElementSibling;
+    box.classList.toggle('open');
+    btn.textContent = box.classList.contains('open') ? 'Hide Script' : 'View Script';
+  }
+
+  // Filter buttons
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', function() {
+      const parent = this.parentElement;
+      parent.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      this.classList.add('active');
+    });
+  });
+
+  // Nav highlight on scroll
+  const sections = document.querySelectorAll('section[id]');
+  const navLinks = document.querySelectorAll('.nav-links a');
+  window.addEventListener('scroll', () => {
+    let current = '';
+    sections.forEach(s => { if (window.scrollY >= s.offsetTop - 120) current = s.id; });
+    navLinks.forEach(a => {
+      a.style.color = a.getAttribute('href') === '#' + current ? 'var(--gold)' : '';
+    });
+  });
+</script>
+<script src="script.js"></script>  
+
+
+</body></html>
