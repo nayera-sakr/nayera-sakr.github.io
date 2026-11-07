@@ -1407,7 +1407,7 @@ img {
         right: 0;
         width: 100%;
         flex-direction: column;
-        background: var(--primary-dark);
+        background: var(--gradient-accent);
         padding: 20px;
         gap: 0;
         text-align: left;
